@@ -1,0 +1,11 @@
+.section {
+    display: flex;
+}
+
+.sectionLeft {
+    background-color: brown;
+    width: 50%;
+    gap: 1rem;
+    text-align: center;
+    color: yellow;
+}
