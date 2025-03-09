@@ -11,6 +11,10 @@ import Info from "./Baitapinput";
 ///import './Section.jsx'
 import Test from "./Props";
 
+
+import Header from "./Header"
+import Footer from "./Footer"
+import Button from "./Button"
 function App() {
   return (
     <>
@@ -18,7 +22,6 @@ function App() {
       <A />
       <ChangeColor />
       <Quest />
-
       <Info />
       <Test 
       label = "Nhập email"
@@ -26,10 +29,11 @@ function App() {
       placeholder = "đây là email"
       onFocus = {() => {
         console.log(Math.random());
-        
-        ;
       }}
       />
+      <Header />
+      <Footer />
+      <Button />
     </>
   );
 }
